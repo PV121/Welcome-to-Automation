@@ -1,6 +1,6 @@
 public class IfThenElse_Q3 {
     public boolean isTeen(int age){
-        if (age<=18){
+        if (age<=18 && age >=13){
             return true;
         }else {
             return false;
